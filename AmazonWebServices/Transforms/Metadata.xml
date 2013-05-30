@@ -1,0 +1,19 @@
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.dataobject']/class[@name='AppInfo']/method[@name='getDataSource']" name="managedReturn">Com.Amazon.Identity.Auth.Device.Datastore.AbstractDataSource</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.dataobject']/class[@name='AuthorizationCode']/method[@name='getDataSource']" name="managedReturn">Com.Amazon.Identity.Auth.Device.Datastore.AbstractDataSource</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.dataobject']/class[@name='AuthorizationToken']/method[@name='getDataSource']" name="managedReturn">Com.Amazon.Identity.Auth.Device.Datastore.AbstractDataSource</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.dataobject']/class[@name='Profile']/method[@name='getDataSource']" name="managedReturn">Com.Amazon.Identity.Auth.Device.Datastore.AbstractDataSource</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.dataobject']/class[@name='RequestedScope']/method[@name='getDataSource']" name="managedReturn">Com.Amazon.Identity.Auth.Device.Datastore.AbstractDataSource</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.datastore']/class[@name='AppInfoDataSource']/method[@name='cursorToObject']" name="managedReturn">Java.Lang.Object</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.datastore']/class[@name='AuthorizationCodeDataSource']/method[@name='cursorToObject']" name="managedReturn">Java.Lang.Object</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.datastore']/class[@name='AuthorizationTokenDataSource']/method[@name='cursorToObject']" name="managedReturn">Java.Lang.Object</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.datastore']/class[@name='ProfileDataSource']/method[@name='cursorToObject']" name="managedReturn">Java.Lang.Object</attr>
+ <attr path="/api/package[@name='com.amazon.identity.auth.device.datastore']/class[@name='RequestedScopeDataSource']/method[@name='cursorToObject']" name="managedReturn">Java.Lang.Object</attr>
+</metadata>
